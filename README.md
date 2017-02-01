@@ -3,7 +3,7 @@ Object detection using the non-free SURF Algorithm in C++, using opencv 3.0.
 
 ## How to use
 Simply replace *filepath define* with the filepath of an image containing solely the object you wish to detect. It is important nothing else is included in the image, cropping may be neccessary.
-```
+```C++
 #define filepath "/Users/Joe/Desktop/object.jpg"
 ```
 
