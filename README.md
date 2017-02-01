@@ -10,4 +10,4 @@ Simply replace *filepath define* with the filepath of an image containing solely
 OpenCV 3.0 is required, as 'non-free' alorithms have since been removed from 3.0 you have to build it using the [opencv_contrib](https://github.com/itseez/opencv_contrib) package. I suggesting using [CMake](https://cmake.org) to speed things up.
 
 ## Linker flags
--lopencv_calib3d, -lopencv_core, -lopencv_features2d, -lopencv_flann, -lopencv_highgui, -lopencv_imgproc, -lopencv_xfeatures2d, -lopencv_videoio, -lopencv_imgcodecs
+-lopencv_calib3d -lopencv_core -lopencv_features2d -lopencv_flann -lopencv_highgui -lopencv_imgproc -lopencv_xfeatures2d -lopencv_videoio -lopencv_imgcodecs
